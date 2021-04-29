@@ -45,7 +45,7 @@ Create Amazon EKS clusters
 
 ## Robot Shop Install
 
-Install Stan's Robot Shop on to your K8s cluster using the helm chart, see the [README](helm/README.md) for details of the various options.
+Install  Robot Shop on to your K8s cluster using the helm chart, see the [README](helm/README.md) for details of the various options.
 
 ```shell
 $ cd helm
@@ -54,7 +54,7 @@ $ helm install --name robot-shop --namespace robot-shop .
 
 ## Quotas and Scaling
 
-You can apply resource quotas to the namespace where you installed Stan's Robot Shop.
+You can apply resource quotas to the namespace where you installed  Robot Shop.
 
 ```shell
 $ kubectl -n robot-shop apply -f resource-quota.yaml
@@ -66,7 +66,7 @@ Optinally you can also run the `autoscale.sh` script to configure automatic scal
 
 ## Istio
 
-Stan's Robot Shop will run on Kubernetes with Istio service mesh. Configure Istio ingress.
+ Robot Shop will run on Kubernetes with Istio service mesh. Configure Istio ingress.
 
 ```shell
 $ kubectl -n robot-shop apply -f Istio/gateway.yaml
