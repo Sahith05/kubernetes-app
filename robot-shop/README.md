@@ -43,7 +43,7 @@ Create Amazon EKS clusters
 
 
 
-#Robot Shop Install
+##Robot Shop Install
 
 Install Stan's Robot Shop on to your K8s cluster using the helm chart, see the [README](helm/README.md) for details of the various options.
 
